@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Template by @CACabusas in GitHub -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>YOUR NAME HERE | Portfolio</title>
+        <link rel="icon" type="image/png" href="images/icons/logo.png"> <!-- For logo on the browser tab. -->
+        <!-- Make sure that [logo.png] exists in the [images/icons/] folder -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- To replace font style, go to Google Fonts and choose your font. After choosing one, click on
+        "Get Font", click the "<> Get embed code" button, and replace the next 3 lines after this comment
+        with the one in the "Embed code in the <head> of your html" text box.
+        Then go to the [styles.css] to apply the new font.W -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <!-- As a placeholder, "Quicksand" font style will be used. -->
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#channels">Channels</a>
+                <a href="#featured">Featured Works</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="home" class="parallax hero">
+            <div>
+                <h1>YOUR NAME</h1>
+                <p>Title</p>
+            </div>
+        </section>
+
+        <section id="about" class="content">
+            <h2>About</h2>
+            <p>
+                Describe yourself here
+                <!-- For thick fonts, use <strong>TEXT</strong>.
+                    To put the text to the next line, add <br>. -->
+            </p>
+            <br>
+            <h3>Tools</h3>
+            <div class="tools-row">
+                <!-- Replace "TOOL NAME HERE" with something appropriate.
+                    To replace the icon image, place your icons in the [images/icons/tools/] folder,
+                    and replace "images/icons/tools/TOOL IMAGE HERE.png" with something appropriate. -->
+                <div class="tool-icon" data-label="TOOL NAME HERE">
+                    <img src="images/icons/tools/TOOL IMAGE HERE.png" alt="TOOL NAME HERE" title="TOOL NAME HERE">
+                </div>
+
+                <!-- This is an example. -->
+                <div class="tool-icon" data-label="Adobe Photoshop">
+                    <img src="images/icons/tools/photoshop.png" alt="Photoshop" title="Adobe Photoshop">
+                </div>
+                <div class="tool-icon" data-label="Adobe Photoshop">
+                    <img src="images/icons/tools/photoshop.png" alt="Photoshop" title="Adobe Photoshop">
+                </div>
+
+                <!-- Copy this if you want separation between the icons. -->
+                <span class="tool-divider"></span>
+
+                <!-- This is an example. -->
+                <div class="tool-icon" data-label="Adobe Photoshop">
+                    <img src="images/icons/tools/photoshop.png" alt="Photoshop" title="Adobe Photoshop">
+                </div>
+            </div>
+            <br>
+            <!-- This is optional -->
+            <h3>Languages</h3>
+            <p>
+                English. English? English! <!-- Add language. -->
+            </p>
+            <br>
+            <h3>Resume</h3>
+            <p>
+                Check my resume below: <!-- You can add some text here, replace them, or remove them entirely -->
+            </p>
+            <!-- To setup the resume in the button, place your resume PDF in the [resources/] folder. -->
+            <a href="resources/YOUR RESUME.pdf" class="resume-btn" target="_blank">
+                Resume
+            </a>
+        </section>
+
+        <section id="channels" class="parallax projects">
+            <div>
+                <h2>Channels</h2>
+                <br>
+                <p>YouTube channels I've worked for:</p> <!-- You can replace the text here -->
+                <div class="channel-grid">
+                    <!-- Replace every "@CHANNEL" with an appropriate YouTube channel username.
+                        To replace the channel image, place your channel images in the [images/] folder 
+                        and replace "channelplaceholder.jpg" with your image's corresponding file name. 
+                        PNG and WEBP are supported. -->
+                    <a href="https://www.youtube.com/@CHANNEL" target="_blank" class="channel-icon" data-label="@CHANNEL">
+                        <img src="images/channelplaceholder.jpg" alt="YouTube Channel 1" title="@CHANNEL">
+                    </a>
+
+                    <a href="https://www.youtube.com/@CHANNEL" target="_blank" class="channel-icon" data-label="@CHANNEL">
+                        <img src="images/channelplaceholder.jpg" alt="YouTube Channel 2" title="@CHANNEL">
+                    </a>
+
+                    <a href="https://www.youtube.com/@CHANNEL" target="_blank" class="channel-icon" data-label="@CHANNEL">
+                        <img src="images/channelplaceholder.jpg" alt="YouTube Channel 3" title="@CHANNEL">
+                    </a>
+
+                    <!-- This is an example -->
+                    <a href="https://www.youtube.com/@AloneatHome00" target="_blank" class="channel-icon" data-label="@AloneatHome00">
+                        <img src="images/sample.png" alt="YouTube Channel 4" title="@AloneatHome00">
+                    </a>
+                </div>
+                </h3>
+            </div>
+        </section>
+
+        <section class="content" id="featured">
+            <h2>Featured Works</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <figure class="video-thumb landscape">
+                        <!-- Replace "https://www.youtube.com/watch?v=videoIDhere" with an appropriate YouTube
+                            video URL.
+                            To replace the video thumbnail, refer to the YouTube URL you used. Copy the "videoIDhere"
+                            part of the YouTube video URL and paste it in the "videoIDhere" part in
+                            "https://img.youtube.com/vi/videoIDhere/hqdefault.jpg" -->
+                        <a href="https://www.youtube.com/watch?v=videoIDhere" target="_blank">
+                            <img src="https://img.youtube.com/vi/videoIDhere/hqdefault.jpg"
+                                alt="YouTube video" loading="lazy">
+                            <div class="play-overlay">
+                                <span>▶</span>
+                            </div>
+                        </a>
+                    </figure>
+                    <div class="video-meta">
+                        <strong>YOUTUBE VIDEO TITLE</strong>
+                        <p>@CHANNEL</p>
+                        Add text here to describe the video or to describe what you did on that video.
+                    </div>
+                </div>
+
+                <article class="video-card">
+                    <figure class="video-thumb landscape">
+                        <a href="https://www.youtube.com/watch?v=lpv9HLNmT_A" target="_blank">
+                            <img src="https://img.youtube.com/vi/lpv9HLNmT_A/hqdefault.jpg"
+                                alt="YouTube video example" loading="lazy">
+                            <div class="play-overlay">
+                                <span>▶</span>
+                            </div>
+                        </a>
+                    </figure>
+                    <div class="video-meta">
+                        <strong>Sample Video</strong>
+                        <p>@AloneatHome00</p>
+                        This is a sample video.
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <!-- Replace "https://www.youtube.com/shorts/videoIDhere" with an appropriate YouTube
+                            Shorts URL.
+                            To replace the Shorts thumbnail, refer to the YouTube Shorts URL you used.
+                            Copy the "videoIDhere" part of the YouTube video URL and paste it in the
+                            "videoIDhere" part in "https://img.youtube.com/vi/videoIDhere/hqdefault.jpg" -->
+                    <figure class="video-thumb portrait">
+                        <a href="https://www.youtube.com/shorts/videoIDhere" target="_blank">
+                            <img src="https://img.youtube.com/vi/videoIDhere/hqdefault.jpg"
+                                alt="Youtube Shorts video" loading="lazy">
+                            <div class="play-overlay">
+                                <span>▶</span>
+                            </div>
+                        </a>
+                    </figure>
+                    <div class="video-meta">
+                        <strong>YOUTUBE SHORTS TITLE</strong>
+                        <p>@CHANNEL</p>
+                        Add text here to describe the video or to describe what you did on that video.
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <figure class="video-thumb portrait">
+                        <a href="https://www.youtube.com/shorts/Za_16C3lWmM" target="_blank">
+                            <img src="https://img.youtube.com/vi/Za_16C3lWmM/hqdefault.jpg"
+                                alt="Youtube Shorts video" loading="lazy">
+                            <div class="play-overlay">
+                                <span>▶</span>
+                            </div>
+                        </a>
+                    </figure>
+                    <div class="video-meta">
+                        <strong>YouTube Shorts Video</strong>
+                        <p>@AloneatHome00</p>
+                        This is a sample video.
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="parallax contact">
+            <div>
+                <h2>Contact</h2>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <img src="images/icons/phone-100.png" alt="Phone">
+                        <span>0123456789</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <img src="images/icons/email-100.png" alt="Email">
+                        <span>YOUR EMAIL</span>
+                    </div>
+
+                    <!-- To add an additional contact info with an icon, place your icon first in the
+                        [images/icons/] folder. Replace "contactICON.png" with your corresponding
+                        icon, then replace "CONTACT INFO" with your desired contact info. -->
+                    <div class="contact-item">
+                        <img src="images/icons/contactICON.png" alt="CONTACT INFO">
+                        <span>CONTACT INFO</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 202X YOUR NAME. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
+<!-- Template by @CACabusas in GitHub -->
