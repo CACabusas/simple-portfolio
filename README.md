@@ -14,7 +14,7 @@ this contains the following:
 3. Channels
 ![Channels](https://github.com/CACabusas//simple-portfolio/blob/main/screenshots/03_channels.png?raw=true)
 
-4. Featured Works\
+4. Featured Works
 ![Featured](https://github.com/CACabusas//simple-portfolio/blob/main/screenshots/04_featured.png?raw=true)
 
 5. Contact
