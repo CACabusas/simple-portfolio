@@ -4,7 +4,7 @@ a simple template for a portfolio. just replace the stuff inside
 
 this is based on my own [portfolio](https://cacabusas.github.io/)
 
-this contains the following:\
+this contains the following:
 1. Home
 ![Home](https://github.com/CACabusas//simple-portfolio/blob/main/screenshots/01_home.png?raw=true)
 
